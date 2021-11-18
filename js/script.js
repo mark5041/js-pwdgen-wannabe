@@ -6,5 +6,5 @@
 let username = prompt('inserisci il tuo nome');
 let usersurname = prompt('inserisci il tuo cognome');
 let userfavcolor = prompt('inserisci il tuo colore preferito');
-let welcome = username + ' ' + usersurname + ' ' + userfavcolor;
-document.getElementById('benvenuto').innerHTML = welcome;
+let welcome = 'la tua password è:' + username + usersurname + userfavcolor + Math.floor(Math.random() * 999);;
+document.getElementById('password').innerHTML = welcome;
